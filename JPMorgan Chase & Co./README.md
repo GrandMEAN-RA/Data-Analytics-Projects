@@ -1,7 +1,7 @@
 # 💳 JPMorgan Chase Transaction Analysis — Fraud & Spending Insights
 
 ### 📊 Project Overview
-This project focuses on analyzing **bank transaction data** from JPMorgan Chase to uncover insights about **customer spending patterns, unusual activity, and potential fraud indicators**.  
+This project focuses on analyzing **bank transaction data** and **commodity price data** from JPMorgan Chase to uncover insights about **loan defaults**.  
 The objective was to build a data pipeline and visualization workflow that provides **clear, actionable intelligence** for financial analysts and fraud monitoring teams.
 
 ---

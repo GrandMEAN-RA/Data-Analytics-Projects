@@ -74,7 +74,7 @@ Data-Analytics-Projects/
 
 💼 **LinkedIn:** [Opeyemi Sadiku](https://www.linkedin.com/in/opeyemi-sadiku-514094327/)  
 💻 **GitHub:** [GrandMEAN-RA](https://github.com/GrandMEAN-RA)  
-📧 **Email:** available upon request  
+📧 **Email:** grandmeanra@gmail.com  
 
 ---
 

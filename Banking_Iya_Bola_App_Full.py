@@ -206,16 +206,27 @@ col1, col2 = st.columns([2, 1])
 # --- CHAT WINDOW ---
 with col1:
     st.subheader("💬 Chat Window")
-    user_input = st.text_input("Type your message below 👇", placeholder="E.g., I wan send 2k go my mama account")
+    user_input = st.text_input(
+        "Type your message below 👇",
+        placeholder="E.g., I wan send 2k go my mama account",
+        key="user_input_box"
+    )
 
+    # Ensure a flag to prevent duplicate logging
+    if "last_logged_input" not in st.session_state:
+        st.session_state["last_logged_input"] = None
+
+    # Speech button
     if st.button("🎙️ Speak Instead"):
         user_input = recognize_speech()
 
-    if st.button("Send") or user_input:
-        if user_input:
+    # Send button logic (log only once per new message)
+    if st.button("Send") and user_input:
+        if user_input != st.session_state["last_logged_input"]:
             language = detect_language(user_input)
             intent = classify_intent(user_input)
             response = generate_response(user_input, language, intent)
+
             st.session_state["log"].append({
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "user_input": user_input,
@@ -224,9 +235,14 @@ with col1:
                 "response": response,
                 "gender": gender_spec
             })
+
+            st.session_state["last_logged_input"] = user_input  # ✅ store last input
             st.info(f"🗣️ Language used: {language}")
             st.success(response)
             speak_text(response)
+        else:
+            st.warning("⚠️ You already sent this message.")
+
 
 st.subheader("📊 Real-Time Dashboard")
 

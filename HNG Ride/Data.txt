@@ -1,0 +1,32 @@
+Dataset Name: Financial Sample Dataset
+Data Source: https://go.microsoft.com/fwlink/?LinkID=521962
+
+Data Structure:
+Number of rows: 700
+Number of Columns: 16
+	Country, product, Month Name: Text-data type
+	Units sold, Month Number, Year: Whole Number-data type
+	Manufacturer price, Sale price, Gross sale, Discount, sales, COGS, Profit: currency-data type
+	Date: Date-data type
+
+key Features: Segment, Country, Product, Discount Band, Date
+Added Features: Markup
+
+Data Anomalies Found:
+Sales and Gross Sales are duplicate columns
+Unit sold column contains decimal enteries
+Discount & Profit columns contain non-numeric enteries
+Sales price is renamed to unit sales price	
+
+Research Questions:
+1. How does the discount policy affect demand and revenue?
+2. What segment and country is driving revenue and profit?
+3. What is the revenue pattern by product? Which products are our high net products?
+4. Is there any seasonal pattern in sales?
+
+Analysis Methods:
+•   Microsoft Excel will be used for the analysis:
+    ◦ Descriptive → averages, sums, counts, percentages.
+    ◦    Comparative → pivot tables, grouped bar charts.
+    ◦    Correlation → scatter plots, trendlines.
+    ◦    Trend analysis → Revenue over time.

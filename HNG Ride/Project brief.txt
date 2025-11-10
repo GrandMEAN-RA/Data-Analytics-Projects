@@ -1,0 +1,89 @@
+Introduction to Data Analytics:
+Objective
+This task introduces you to the data analytics workflow.
+You will find a dataset, explore and clean it, answer meaningful questions, and present your findings 
+	clearly and professionally using Excel only.
+
+Task Instructions
+Step 1: Find a Dataset    
+•    Choose a Sales, Marketing, or Business-related dataset you can share publicly.
+•    Use open sources like Kaggle, UCI Machine Learning Repository, World Bank, or government open data portals.
+•    Optionally, you may combine datasets (ensure they can be merged by a common column like Date, Country, or Customer ID).
+
+Step 2: Explore Your Data    
+•    Understand your dataset’s structure (columns, data types, missing values).
+•    Identify and fix:
+    ◦    Missing or inconsistent data
+    ◦    Outliers
+    ◦    Typographical errors
+•    Summarize your findings briefly.
+
+Step 3: Define 1–3 Research Questions
+	Your questions should be:
+    •    Clear and answerable with your dataset.
+    •    Interesting and relevant to business or policy decisions.
+
+ Examples:
+    •    “How does customer discount affect total sales revenue?”
+    •    “Which region generated the highest sales in Q1?”
+    •    “Is there a relationship between marketing spend and product returns?”
+
+Step 4: Document Your Dataset and Questions
+
+    •    Write down:    ◦    Dataset name and source link.
+    ◦    Number of rows/columns.
+    ◦    Key variables (features).
+    ◦    Your research question(s).
+
+Step 5: Choose Your Analysis Methods
+
+    •    Decide how you will answer your questions using Excel tools:
+    ◦    Descriptive → averages, sums, counts, percentages.
+    ◦    Comparative → pivot tables, grouped bar charts.
+    ◦    Correlation → scatter plots, trendlines.
+    ◦    Trend analysis → Revenue over time.
+
+Step 6: Present Your Findings
+
+    •    Summarize your insights using clear charts and tables.
+    •    Tell a story:
+ What did you find? Why does it matter? What’s your conclusion?Step 7: Identify LimitationsExamples:
+    •    Small dataset.
+    •    Missing time period.
+    •    Biased or incomplete records.
+
+
+Step 8 (Optional): Suggest Future WorkMention how this project could be improved:
+    •    Collect more data.
+    •    Use a visualization tool (Power BI, Tableau).
+    •    Explore predictive methods later.
+
+
+Tool Requirement
+Use Excel only for data cleaning, analysis, and visualization.
+
+Submission Guidelines: Stage 0 Project
+Deliverable
+A maximum 10-slide presentation in PDF format.
+What to Include
+    1    Dataset Overview
+    ◦    Brief description of the dataset
+    ◦    Source or origin    2    Research Questions
+    ◦    Clearly defined questions guiding your analysis    3    Data Cleaning Summary
+    ◦    Steps taken to clean and prepare the data
+    ◦    Tools or techniques used    4    Key Analysis and Visuals
+    ◦    Charts, graphs, and tables (preferably from Excel)
+    ◦    Highlight trends, patterns, or insights    5    Insights and Conclusions
+    ◦    What did you discover?
+    ◦    How do your findings answer the research questions?    6    Limitations and Future Work
+    ◦    Challenges or constraints
+    ◦    Suggestions for further explorationAttachments Required    •    Dataset Link
+    ◦    Source or download URL    •    PDF Presentation Upload
+    ◦    Submit via the provided form    •    Social Media Post
+    ◦    Share your project on Twitter or LinkedIn
+    ◦    Tag @HNG
+    ◦    Submit the link to your post in the formNaming Convention
+
+Your PDF file should be named as follows:
+    •    Stage0_FirstnameLastname_ProjectTitle.pdfExample:
+ Stage0_AdaezeIfeanyi_SalesTrends.pdfDeadline: 18th of October, 2025 by 11:59 pm WATSubmission Link: Submit here (edited) 
